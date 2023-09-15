@@ -17,7 +17,7 @@ void FillArray()
 void PrintArray(int[] arr)
 {
     string result = String.Join<int>(", ", array);
-    Console.Write(result);
+    Console.Write("[" + result + "]");
 }
 
 FillArray();
